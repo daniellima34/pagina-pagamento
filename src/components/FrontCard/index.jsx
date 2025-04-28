@@ -31,8 +31,6 @@ export default function CardFront() {
             </div>
 
 
-
-
         </div>
 
     )
