@@ -1,5 +1,5 @@
 
-export default function BackCard(){
+export default function BackCard({cvv}){
     return (
         <div className="w-[600px] h-[350px] bg-black rounded-xl">
             <div className="w-full h-[30%] flex items-end">
@@ -7,7 +7,7 @@ export default function BackCard(){
             </div>
             <div className="w-full h-[70%] flex justify-center pt-[30px]">
             <div className="w-[70%] h-[50px] bg-[#AEB6BF]">
-            <p className=" text-black flex items-center justify-end">0000</p>
+            <p className=" text-black flex items-center justify-end">{cvv || "0000" }</p>
             </div>
             
             </div>
